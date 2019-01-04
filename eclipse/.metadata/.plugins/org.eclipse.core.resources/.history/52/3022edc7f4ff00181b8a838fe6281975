@@ -1,0 +1,44 @@
+package br.com.java.ciant;
+
+import java.util.Scanner;
+
+
+public class Exercicio9 {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+	
+		
+		
+		System.out.println("Imput number:");
+		int[] number = new int[4];
+		
+		
+		
+		
+		/*while (rodar !=0){
+			X
+			int number = scan.nextInt();
+			if(number < 9999) {
+				System.out.println(number);
+				rodar=0;
+				for(int i=0; i<number; i++) {
+					i++;
+					System.out.println(i);
+					
+				}
+
+			} else {
+				System.out.println("O numero não pode ser maior que 4 digitos");
+				rodar =1;
+			}
+			
+		}*/
+		
+		
+		
+		
+
+	}
+
+}

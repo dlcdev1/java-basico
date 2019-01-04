@@ -1,0 +1,28 @@
+package br.com.aula20;
+
+import java.util.Scanner;
+
+public class Exer5 {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		
+		String [][][] compromisso = new String[12][31][24];
+		boolean sair = false;
+		
+		while(!sair) {
+			System.out.println("1 - Adicionar compromisso");
+			System.out.println("2 - Verificar compromisso");
+			
+			
+			
+			
+			
+			
+		}
+		
+		
+
+	}
+
+}

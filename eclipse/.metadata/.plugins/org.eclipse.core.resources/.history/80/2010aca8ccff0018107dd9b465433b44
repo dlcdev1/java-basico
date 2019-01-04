@@ -1,0 +1,23 @@
+package br.com.java.ciant;
+
+public class Exercicio7 {
+
+	public static void main(String[] args) {
+		int number = 0, result = 0, soma = 0, cont = 0;
+
+		for (int i = 0; i <= 30; i++) {
+			number = i;
+			if (number % 2 == 0) {
+
+				continue;
+
+			}
+			result = number;
+			soma = soma + result;
+		}
+		
+		System.out.println("A soma de " + (result+1) + " números ímpares é = " + soma);
+
+	}
+
+}

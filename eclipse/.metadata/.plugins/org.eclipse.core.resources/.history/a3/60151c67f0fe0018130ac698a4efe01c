@@ -1,0 +1,17 @@
+package br.com.java.ciant;
+
+public class Conversao {
+
+	public static void main(String[] args) {
+		int x = 10;
+		byte y = (byte)x;
+		double z = y;
+		
+		System.out.println(x);
+		System.out.println(y);
+		System.out.println(z);
+		
+
+	}
+
+}

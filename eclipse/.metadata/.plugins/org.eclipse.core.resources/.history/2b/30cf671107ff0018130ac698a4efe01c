@@ -1,0 +1,20 @@
+package br.com.java.ciant;
+
+public class ControleFluxoDoWhile {
+
+	public static void main(String[] args) {
+		String texto = "Eu passei por aqui";
+		
+		while(texto !="") {
+			System.out.println(texto);
+			closed();
+		}
+
+	}
+
+	private static void closed() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

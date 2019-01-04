@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.sun.tools.javac.parser.ScannerFactory"/>
+<fullyQualifiedTypeName name="java.util.InputMismatchException"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="java.lang.NullPointerException"/>
+<fullyQualifiedTypeName name="java.lang.Boolean"/>
+<fullyQualifiedTypeName name="br.com.zoologico.classes.Animal"/>
+<fullyQualifiedTypeName name="br.com.consultorio.classes.Dentista"/>
+<fullyQualifiedTypeName name="br.com.zoologico.classes.Cachorro"/>
+<fullyQualifiedTypeName name="br.com.zoologico.classes.Gato"/>
+<fullyQualifiedTypeName name="br.com.zoologico.classes.Animavel"/>
+<fullyQualifiedTypeName name="br.com.zoologico.classes.Zoologico"/>
+<fullyQualifiedTypeName name="com.sun.tools.javac.util.List"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="br.com.zoologico.classes.Veterinario"/>
+<fullyQualifiedTypeName name="br.com.calculadora.classes.Adicao"/>
+<fullyQualifiedTypeName name="br.com.calculadora.classes.Subtracao"/>
+<fullyQualifiedTypeName name="br.com.calculadora.classes.Multiplicacao"/>
+<fullyQualifiedTypeName name="br.com.calculadora.classes.Divisao"/>
+<fullyQualifiedTypeName name="br.com.calculadora.fabrica.FabricaCalculosMatematicos"/>
+<fullyQualifiedTypeName name="br.com.calculadora.inerfaces.CalculadorMatematico"/>
+<fullyQualifiedTypeName name="br.com.calculadora.classes.Potenciacao"/>
+<fullyQualifiedTypeName name="br.com.contas.classes.ContaCorrente"/>
+<fullyQualifiedTypeName name="br.com.contas.classes.Correntista"/>
+<fullyQualifiedTypeName name="com.sun.tools.jdeprscan.scan.Scan"/>
+<fullyQualifiedTypeName name="br.com.aula13.labs.exercicio10"/>
+<fullyQualifiedTypeName name="br.com.aula15.exercicio21"/>
+<fullyQualifiedTypeName name="javax.sound.sampled.Line"/>
+<fullyQualifiedTypeName name="com.sun.tools.corba.se.idl.constExpr.Equal"/>
+<fullyQualifiedTypeName name="com.sun.xml.internal.bind.v2.runtime.RuntimeUtil.ToStringAdapter"/>
+<fullyQualifiedTypeName name="sun.text.resources.cldr.ext.FormatData_en_CH"/>
+<fullyQualifiedTypeName name="sun.security.util.Length"/>
+<fullyQualifiedTypeName name="com.sun.tools.javac.resources.legacy"/>
+<fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+<fullyQualifiedTypeName name="javax.swing.JTextField"/>
+<fullyQualifiedTypeName name="java.lang.Runtime"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="br.com.aula26.Carro"/>
+<fullyQualifiedTypeName name="org.graalvm.compiler.core.common.type.ArithmeticOpTable.UnaryOp.Sqrt"/>
+<fullyQualifiedTypeName name="java.lang.Math"/>
+<fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthSeparatorUI"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+</qualifiedTypeNameHistroy>

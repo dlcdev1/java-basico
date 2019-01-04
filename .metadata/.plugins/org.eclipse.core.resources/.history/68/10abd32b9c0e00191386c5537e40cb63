@@ -1,0 +1,107 @@
+module.exports = function($window, $q, API, PickerService, AuthService) {
+
+  'ngInject';
+
+  var self = this;
+  var endpoint = window.gapiWrapped.client.feedthebeast;
+  var $picker = $window.google.picker;
+  var pickerInstance;
+
+  this.loadTemplate = function(templateId) {
+    return endpoint.campaign.template.fields({
+      id: templateId
+    });
+  };
+
+  this.getTemplates = function() {
+    return endpoint.campaign.active.templates();
+  };
+
+  this.loadSubmission = function(req) {
+    return endpoint.submissions.campaigns.data(req);
+  };
+
+  this.loadShortHands = function(templateId) {
+    return endpoint.campaign.template.shorthands({
+      id: templateId
+    }).then(function(response) {
+      return response;
+    });
+  };
+
+  this.getList = function(data) {
+    return endpoint.submissions.campaigns.list(data);
+  };
+
+  this.loadDetails = function(data) {
+    return endpoint.submissions.campaigns.id(data);
+  };
+
+  this.insertCampaigns = function(data) {
+    return endpoint.campaign.insert(data);
+  };
+
+  this.findOwnerOnSalesforce = function(data) {
+    return endpoint.get.salesforceuser(data);
+  };
+
+  this.createPicker = function(callback) {
+    pickerInstance = new $picker
+      .PickerBuilder()
+      .enableFeature($picker.Feature.NAV_HIDDEN)
+      .setAppId(API.APP_ID)
+      .addView(
+        new $picker
+        .DocsView()
+        .setMimeTypes('text/csv,text/tab-separated-values,application/vnd.google-apps.spreadsheet')
+      )
+      .setOAuthToken(AuthService.getAccessToken())
+      .setDeveloperKey(API.DEVELOPER_KEY)
+      .setCallback(callback)
+      .build();
+
+    return pickerInstance;
+  };
+
+  this.Picker = function() {
+    var instance = {};
+    var picker;
+
+    instance.create = function(callback) {
+      picker = self.createPicker(callback);
+    };
+
+    instance.show = function() {
+      picker.setVisible(true);
+    };
+
+    instance.getFileType = PickerService.getFileType;
+    instance.getFileIcon = PickerService.getFileIcon;
+
+    return instance;
+  };
+
+  this.getCampaignsDetail = (data) => endpoint.campaigns.id(data);
+
+  this.searchCampaigns = (data) => {
+    return endpoint.campaign.search.results(data).then((data) => {
+      if (!Object.keys(data.result).includes('items'))
+        return data;
+
+      const response = Object.assign({}, data, data.result.items.map((item, index) => {
+        item.id = item.campaignId;
+        if(){
+        	delete item.campaignSfdcLink;
+        }
+        delete item.campaignId;
+        return item;
+      }));
+
+      return response;
+    });
+  };
+
+  this.fetchDataToAucomplete = ({filter, value}) => {
+    return endpoint.campaign.search.filter.content({filter, value});
+  };
+};

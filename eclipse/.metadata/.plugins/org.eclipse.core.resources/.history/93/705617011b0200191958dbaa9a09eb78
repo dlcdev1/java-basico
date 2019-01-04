@@ -1,0 +1,15 @@
+package br.com.aula27;
+
+public class testLampada {
+
+	public static void main(String[] args) {
+		Lampada lampada = new Lampada();
+		
+		lampada.ligar();
+		lampada.desligar();
+		
+		System.out.println("Lampada está " + lampada.ligada);
+		System.out.println("Lampada está " + lampada.desligar);
+	}
+
+}

@@ -1,0 +1,44 @@
+package br.com.java.ciant;
+
+import java.util.Scanner;
+
+public class Exercicio11 {
+
+	public static void main(String[] args) {
+		/*
+		 * Faça um programa que contenha um menu com 4 opções e implemente as ações do
+		 * menu: 1 – calcular o fatorial de umnúmero dado; 2 – calcular a raiz quadrada
+		 * de 3 números dados; 3 – imprimir a tabuada completa de 1 a 10; 4 – sair do
+		 * programa.
+		 */
+		int router = 1;
+		while (router != 0) {
+
+			Scanner scan = new Scanner(System.in);
+
+			System.out.println("Select a option:");
+			System.out.println("1 - calculate the factorial of a number input");
+			System.out.println("2 - calculate the root square of 3 numbers");
+			System.out.println("3 - print tabuada complete of 1 the 10");
+			System.out.println("4 - closed program");
+			int imput = scan.nextInt();
+			switch (imput) {
+			case 1:
+				System.out.println("Calculate factoria");
+				System.out.println("Input number:");
+				int number = scan.nextInt();
+				System.out.println("Input factoria");
+				int fact = scan.nextInt();
+
+				System.out.println("Result is:" + Math.pow(number, fact));
+				
+				break; 
+
+			}
+			
+
+		}
+
+	}
+
+}

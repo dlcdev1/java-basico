@@ -1,0 +1,21 @@
+package br.com.java.ciant;
+
+public class Array {
+
+	public static void main(String[] args) {
+		int [] array = new int [4];
+		
+	
+		
+		array [0] = 100;
+		array [1] = 85;
+		array [2] = 20;
+		array [3] = 35;
+		
+		System.out.println(array[0] + "- "+ array[1]);
+		
+
+
+	}
+
+}

@@ -1,0 +1,12 @@
+package br.com.aula27;
+
+public class ContaCorrente {
+	
+	String numero;
+	String agencia;
+	boolean especial;
+	double limitEspecial;
+	double saldo;
+	
+
+}

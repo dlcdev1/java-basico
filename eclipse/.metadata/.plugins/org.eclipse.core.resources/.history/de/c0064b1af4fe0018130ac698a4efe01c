@@ -1,0 +1,14 @@
+package br.com.java.ciant;
+
+public class Array {
+
+	public static void main(String[] args) {
+		char[] a = new char[texto];
+		System.out.println(a[]);
+		
+	
+
+
+	}
+
+}

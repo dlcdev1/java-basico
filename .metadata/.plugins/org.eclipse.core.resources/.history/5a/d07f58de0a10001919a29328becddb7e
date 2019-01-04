@@ -1,0 +1,17 @@
+package br.com.br.labs27;
+
+public class Aluno {
+	
+	int matricula;
+	String nomeAluno;
+	String cursoAluno;
+	String [] disciplina;
+	double [] notas;
+	boolean aprovado;
+	
+	
+	
+	//metodo aprovado
+	
+
+}

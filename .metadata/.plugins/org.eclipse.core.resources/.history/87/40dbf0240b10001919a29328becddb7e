@@ -1,0 +1,24 @@
+package br.com.br.labs27;
+
+import java.util.Random;
+
+public class Aluno {
+	
+	int matricula;
+	String nomeAluno;
+	String cursoAluno;
+	String [] disciplina;
+	double [] notas;
+	boolean aprovado;
+	Random nRandom = new Random();
+	
+	
+	void nMatricula() {
+		System.out.println(matricula = nRandom.nextInt(100));
+	}
+	
+	
+	//metodo aprovado
+	
+
+}

@@ -1,0 +1,11 @@
+package br.com.java.oo.ciant;
+
+public class Cachorro {
+
+	Animal cachorro = new Animal();
+	
+	
+	
+	
+	
+}

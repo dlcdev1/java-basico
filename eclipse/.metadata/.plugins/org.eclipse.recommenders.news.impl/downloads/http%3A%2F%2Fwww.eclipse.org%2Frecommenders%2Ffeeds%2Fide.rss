@@ -1,0 +1,227 @@
+<html>
+  <head>
+    <title>
+      Internet Authentication
+    </title>
+    <style>
+      /* http://meyerweb.com/eric/tools/css/reset/ */
+      /* v1.0 | 20080212 */
+      
+      html, body, div, span, applet, object, iframe,
+      h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+      a, abbr, acronym, address, big, cite, code,
+      del, dfn, em, font, img, ins, kbd, q, s, samp,
+      small, strike, strong, sub, sup, tt, var,
+      b, u, i, center,
+      dl, dt, dd, ol, ul, li,
+      fieldset, form, label, legend,
+      table, caption, tbody, tfoot, thead, tr, th, td {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        background: transparent;
+      }
+      body {
+        line-height: 1;
+      }
+      ol, ul {
+        list-style: none;
+      }
+      blockquote, q {
+        quotes: none;
+      }
+      blockquote:before, blockquote:after,
+      q:before, q:after {
+        content: '';
+        content: none;
+      }
+      
+      /* remember to define focus styles! */
+      :focus {
+        outline: 0;
+      }
+      
+      /* remember to highlight inserts somehow! */
+      ins {
+        text-decoration: none;
+      }
+      del {
+        text-decoration: line-through;
+      }
+      
+      /* tables still need 'cellspacing="0"' in the markup */
+      table {
+        border-collapse: collapse;
+        border-spacing: 0;
+      }
+      
+      body{
+        background-color: #23bec6;
+        font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+      }
+      
+      
+      .container{
+        width: 680px;
+        margin: 7% auto 0;
+      }
+      .box-info{
+        width: 30%;
+        text-align: center;
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 50px;
+      }
+      .box-info img{
+        text-align: center;
+      }
+      .box-info p{
+        font-size: 19px;
+        color:#FFF;
+        font-weight: 600;
+        text-align: center;
+        padding-top: 15px;
+      }
+      
+      .box-auth{
+        width: 69%;
+        display: inline-block;
+      }
+      
+      .login:before{
+        background: url("/XX/YY/ZZ/CI/EHCHBGDGFG");
+        width: 13px;
+        height: 31px;
+        content: "";
+        display: block;
+        position: absolute;
+        margin: 85px -13px;
+      }
+      .login{
+        background-color: #eeeff3;
+        border-radius: 5px;
+        margin-left: 35px;
+        border: 1px solid #138288;
+      }
+      
+      .box-auth .header{
+        width: 100%;
+        text-align: center;
+        padding:25px 0 25px 0;
+      }
+      
+      .box-auth .content{
+        text-align: center;
+      }
+      .box-auth .content input{
+        width: 80%;
+        height: 34px;
+        border-radius: 5px;
+        border: 1px solid #c1c1c1;
+        padding-left: 15px;
+        margin-top: 15px;
+      }
+      
+      .box-auth .content .footer{
+        text-align: right;
+        padding: 0px 45px 25px 45px;
+      }
+      .box-auth .content .footer input.btn-continuar{
+        width: 30%;
+        background-color: #23bec6;
+        color: #FFF;
+        border: 1px solid #176e73;
+        font-weight: 700;
+        cursor: pointer;
+        padding: 10px;
+      }
+      
+      .box-auth .content .footer input.btn-continuar:hover{
+        background-color: #1da3aa;
+      }
+      
+      
+      /* ERROS */
+      .footer .errors{
+        display: block;
+        padding-top: 15px;
+        text-align: left;
+      }
+      .errors strong{
+        color:#464646;
+      }
+      .errors p{
+        color: #d71f3c;
+        font-size: 12px;
+      }
+      
+      
+      /* MOBILE */
+      @media only screen and (max-width: 600px) {
+        
+        .container{
+          width: 100%;
+        }
+        .box-info{
+          display: block;
+          width: 100%;
+          text-align: center;
+        }
+        .box-auth{
+          width:100%;
+        }
+        .login:before{
+          display: none;
+        }
+        .login{
+          margin: 25px;
+        }
+        .box-auth .content .footer input.btn-continuar{
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    
+    <div class="container">
+      <div class="box-info">
+        <img src="/XX/YY/ZZ/CI/JGDGPGOGNCDGPGOGOGFGDGEH" alt="" width="125px">
+        <p>
+          Internet Authentication
+        </p>
+      </div>
+      
+      
+      <div class="box-auth">
+        <div class="login">
+          <div class="header">
+            <img src="/XX/YY/ZZ/CI/MGPGHGPGDGJGEHOGFGHH" alt="" width="114px;">
+          </div>
+          
+          <div class="content">
+            <FORM ACTION="/" method="POST">
+              <INPUT TYPE="hidden" NAME="magic" VALUE="05071f48103f39ce">
+              <INPUT TYPE="text" NAME="username" size=25 placeholder="User">
+              <INPUT TYPE="password" NAME="password" size=25 placeholder="Password">
+              <INPUT TYPE="hidden" NAME="4Tredir" VALUE="http://www.eclipse.org/recommenders/feeds/ide.rss">
+              <div class="footer">
+                <INPUT TYPE="submit" VALUE="LOGIN" class="btn-continuar">
+                
+              </div>
+            </FORM>
+            
+          </div>
+        </div>
+      </div>
+      
+      
+      
+    </div>
+    
+    
+  </body>
+</html>

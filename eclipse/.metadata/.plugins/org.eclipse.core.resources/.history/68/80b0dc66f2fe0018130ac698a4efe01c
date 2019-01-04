@@ -1,0 +1,13 @@
+package br.com.java.ciant;
+
+public class Array {
+
+	public static void main(String[] args) {
+		byte[] numero = new byte [1] ;
+		
+	
+	System.out.println(numero);
+
+	}
+
+}

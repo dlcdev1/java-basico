@@ -1,0 +1,15 @@
+package br.com.aula24;
+
+public class florescente {
+	public static void main(String[] args) {
+		Lampada1 florescente = Lampada1();
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

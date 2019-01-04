@@ -1,0 +1,22 @@
+package br.com.java.ciant;
+
+public class ControleFluxoWhile {
+
+	public static void main(String[] args) {
+		char nome [] = new char[6];
+		nome[0] = 'd';
+		nome[1]  = 'a';
+		nome[2] = 'v';
+		nome[3] = 'i';
+		nome[4] = 'd';
+		nome[5] ='i';
+		
+		int i=0;
+		while(i > nome[i] ) {
+			System.out.println(nome[i]);
+			i++;
+		}
+
+	}
+
+}

@@ -1,0 +1,13 @@
+package br.com.java.ciant;
+
+public class Array {
+
+	public static void main(String[] args) {
+		String nome["texto"]; 
+		
+	
+	System.out.println(nome[]);
+
+	}
+
+}

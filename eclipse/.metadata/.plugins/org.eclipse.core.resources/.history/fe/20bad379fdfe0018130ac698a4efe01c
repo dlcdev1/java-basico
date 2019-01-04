@@ -1,0 +1,25 @@
+package br.com.java.ciant;
+
+import java.util.Scanner;
+
+public class Operadores2 {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		int x =0, y=0, w=0, z=0;
+		int result=0;
+		
+		System.out.println("informe o numero de X:");
+		x = scan.nextInt();
+		System.out.println("informe o numero de Y:");
+		y = scan.nextInt();
+		System.out.println("informe o numero de W:");
+		w = scan.nextInt();
+		System.out.println("informe o numero de Z:");
+		z = scan.nextInt();
+		
+		
+
+	}
+
+}

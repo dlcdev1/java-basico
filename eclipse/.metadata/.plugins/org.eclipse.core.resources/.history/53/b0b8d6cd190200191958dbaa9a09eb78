@@ -1,0 +1,12 @@
+package br.com.aula27;
+
+public class Lampada {
+	String tipo;
+	String tensao;
+	int potencia;
+
+	boolean ligarLampada(boolean ligar) {
+		return ligar;
+	}
+
+}

@@ -1,0 +1,23 @@
+package br.com.java.ciant;
+
+public class Exercicio8 {
+
+	public static void main(String[] args) {
+		int router=1;
+		int i=0;
+		int j=0;
+		
+		while(router!=0) {
+			
+			for(j=0; j<10; j++) {
+				System.out.println("laçoj"+j);	
+			
+			}	
+		
+			break;
+			
+		}
+
+	}
+
+}

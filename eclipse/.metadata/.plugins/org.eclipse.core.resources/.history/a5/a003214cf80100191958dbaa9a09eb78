@@ -1,0 +1,8 @@
+package br.com.java.oo.ciant;
+
+public class Animal {
+	String nome;
+	
+	
+
+}

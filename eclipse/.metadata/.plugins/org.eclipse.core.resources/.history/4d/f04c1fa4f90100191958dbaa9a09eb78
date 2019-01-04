@@ -1,0 +1,13 @@
+package br.com.java.oo.ciant;
+
+public class Animal {
+	
+	String nome;
+	int idade;
+	String emitirSom;
+	String correr;
+	
+	Animal cachorro = new Animal();
+		
+
+}

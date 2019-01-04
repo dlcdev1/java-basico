@@ -1,0 +1,24 @@
+package br.com.java.ciant;
+
+import java.util.Scanner;
+
+
+public class Exercicio9 {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+	
+	
+		
+		System.out.println("Imput number:");
+		int number1 = scan.nextInt(Math.max(a, b));
+		
+		
+		
+		
+		System.out.println();
+		
+
+	}
+
+}

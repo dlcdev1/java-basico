@@ -1,0 +1,19 @@
+package br.com.aula27;
+
+import java.util.Scanner;
+
+public class testeAluno {
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		Aluno aluno = new Aluno();
+		
+		System.out.println("Entre com o nome do aluno");
+		aluno.nome = scan.next();
+		System.out.println("Entre com o nome do curso");
+		aluno.nomeCurso = scan.next();
+		System.out.println("Entre com a matricula");
+		aluno.nomeDisciplina = scan.next();
+		
+	}
+
+}

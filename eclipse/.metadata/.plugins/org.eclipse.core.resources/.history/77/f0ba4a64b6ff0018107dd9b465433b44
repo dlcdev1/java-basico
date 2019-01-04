@@ -1,0 +1,15 @@
+package br.com.java.ciant;
+
+public class Exercicio2 {
+
+	public static void main(String[] args) {
+	int number = 1;
+	long number1 = 2;
+	float number2 = 1;
+	float number3=20.0;
+	System.out.println(number);	
+	System.out.println(number1);
+	System.out.println(number2);
+	}
+
+}

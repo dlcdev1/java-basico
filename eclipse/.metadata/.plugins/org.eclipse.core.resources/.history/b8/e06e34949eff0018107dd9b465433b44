@@ -1,0 +1,19 @@
+package br.com.java.ciant;
+
+public class ControleDeFluxoBreak {
+
+	public static void main(String[] args) {
+		int number =0;
+		boolean rodar = true;
+		
+		while(rodar != false) {
+			if(number < 100 ) {
+				number++;
+				System.out.println(number);
+			}
+			
+		}
+
+	}
+
+}

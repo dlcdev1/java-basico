@@ -1,0 +1,10 @@
+package br.com.aula26;
+
+public class testeCarro {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,10 @@
+package br.com.aula27;
+
+public class Aluno {
+	String nome;
+	String matricula;
+	String nomeCurso;
+	String[] nomeDisciplina = new String[3];
+	double[][] notasDisplicinas = new double[3][4];
+
+}

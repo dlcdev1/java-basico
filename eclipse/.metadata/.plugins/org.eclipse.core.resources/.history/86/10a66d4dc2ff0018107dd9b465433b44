@@ -1,0 +1,22 @@
+package br.com.java.ciant;
+
+public class Exercicio5 {
+
+	public static void main(String[] args) {
+		int x = 10;
+		while(x<20) {
+			x++;
+			System.out.println(x);
+						
+		}
+		do {
+			x++;
+			System.out.println(x);
+		}while(x>20);
+			
+		
+		
+
+	}
+
+}

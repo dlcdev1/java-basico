@@ -1,0 +1,15 @@
+package br.com.java.ciant;
+
+public class ControleDeFluxoBreak {
+
+	public static void main(String[] args) {
+		int number = 100;
+		
+		while(number != false) {
+			
+			
+		}
+
+	}
+
+}

@@ -1,0 +1,15 @@
+package br.com.aula27;
+
+public class Conta {
+	
+	String nome;
+	String endereco;
+	int numbero;
+	int saldo;
+	boolean especial;
+	int limite;
+	
+	
+	
+
+}

@@ -1,0 +1,14 @@
+package br.com.aula27;
+
+public class Conta {
+	
+	String numero;
+	String agencia;
+	boolean especial;
+	double limitEspecial;
+	double saldo;
+	
+	
+	
+
+}

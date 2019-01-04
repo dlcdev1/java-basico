@@ -1,0 +1,18 @@
+package br.com.aula24;
+
+public class Exer04 {
+	
+	public static void main(String [] args) {
+		
+		LivroBiblioteca livro = new LivroBiblioteca();
+		
+		livro.nome = "Matering ";
+		livro.autor = "Loiane Grone";
+		livro.anoLancamento = 2015;
+		
+		
+		
+	}
+	
+
+}

@@ -1,0 +1,16 @@
+package br.com.java.ciant;
+
+public class ControleFluxoWhile {
+
+	public static void main(String[] args) {
+		String nome = "David";
+		
+		
+		
+		while(nome !="") {
+			System.out.println(nome);
+		}
+
+	}
+
+}

@@ -1,0 +1,21 @@
+package br.com.java.ciant;
+
+import com.sun.xml.internal.bind.v2.runtime.RuntimeUtil.ToStringAdapter;
+
+public class ControleDeFlusoFor {
+
+	public static void main(String[] args) {
+		char nome [] = new char[6];
+		nome[0] = 'd';
+		nome[1]  = 'a';
+		nome[2] = 'v';
+		nome[3] = 'i';
+		nome[4] = 'd';
+		nome[5] ='i';
+		for (int i=0; i <nome[i]; i++) {
+			System.out.println(ToStringAdapter(nome[i]));
+		}
+
+	}
+
+}

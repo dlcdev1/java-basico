@@ -1,0 +1,31 @@
+package br.com.java.ciant;
+
+public class Exercicio8 {
+
+	public static void main(String[] args) {
+		int router = 1;
+		int i = 0;
+		int j = 0, laco1=0, laco2=0;
+
+		while (router != 0) {
+
+			for (j = 1; j <= 10; j++) {
+				System.out.print("lacoj - " + j);
+				for (i = 1; i <= 10; i++) {
+					System.out.println("Lacoi" + i);
+					if(i ==j) {
+						continue;
+					}
+				}
+				
+			}
+			
+			
+
+			break;
+
+		}
+
+	}
+
+}

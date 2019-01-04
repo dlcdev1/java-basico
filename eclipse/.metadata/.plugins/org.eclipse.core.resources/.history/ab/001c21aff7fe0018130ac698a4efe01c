@@ -1,0 +1,15 @@
+package br.com.java.ciant;
+
+public class Operadores {
+
+	public static void main(String[] args) {
+		System.out.println("Operadores pós-fixado");
+		float i = 0;
+		
+		System.out.println("i++ = " + i--);
+		//System.out.println("i-- = " + i--);
+		
+
+	}
+
+}

@@ -1,0 +1,32 @@
+package br.com.java.ciant;
+
+public class Exercicio7 {
+
+	public static void main(String[] args) {
+		int number = 0, number2=0, result = 0, result2=0, soma2=0, soma = 0, cont = 0;
+
+		for (int i = 0; i <= 30; i++) {
+			number = i;
+			
+			if (number % 2 == 0) {
+
+				continue;
+
+			}
+			result = number;
+			soma = soma + result;
+		}
+		for(int j=1; j<=30; j++) {
+			number2 = j;
+			if(number2 %2 ==1) {
+				continue;
+			}
+			System.out.println(result2 = number2);
+			soma2 = soma2* result2;
+		}
+		
+		System.out.println("A soma de " + (result+1) + " números ímpares é = " + soma);
+		System.out.println("A multiplicação " + (result2+1) + " números pares é = " + soma2);
+	}
+
+}

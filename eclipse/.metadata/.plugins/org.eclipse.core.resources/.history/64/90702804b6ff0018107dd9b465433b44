@@ -1,0 +1,14 @@
+package br.com.java.ciant;
+
+public class Exercicio2 {
+
+	public static void main(String[] args) {
+	int number = 2;
+	long number1 = 2;
+	float number2 = 1;
+	System.out.println(Math.pow(number, 63));	
+	System.out.println(Math.pow(number1, 63));
+	System.out.println(number2);
+	}
+
+}

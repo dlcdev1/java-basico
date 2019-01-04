@@ -1,0 +1,12 @@
+package br.com.aula26;
+
+public class testeCarro {
+
+	public static void main(String[] args) {
+	 Carro van = new Carro();
+	 
+	 van.obertAutonomia();
+
+	}
+
+}

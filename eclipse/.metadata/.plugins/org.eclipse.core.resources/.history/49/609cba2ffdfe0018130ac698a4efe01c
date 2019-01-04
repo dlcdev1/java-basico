@@ -1,0 +1,17 @@
+package br.com.java.ciant;
+
+public class Operadores2 {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		int x =0, y=0, w=0, z=0;
+		int result=0;
+		
+		System.out.println("informe um numero:");
+		x
+		
+		
+
+	}
+
+}

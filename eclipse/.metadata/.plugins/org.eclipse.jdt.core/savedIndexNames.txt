@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+/home/davidlc/java-basico/eclipse/.metadata/.plugins/org.eclipse.jdt.core
+646308851.index
+2885223717.index
+3689772550.index

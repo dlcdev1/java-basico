@@ -1,0 +1,43 @@
+package br.com.aula19.arrays;
+
+import java.io.InputStream;
+import java.util.Scanner;
+
+public class Exer03 {
+
+	public static void main(String[] args) {
+		/* Criar um vetor A com 15 elementos inteiros. Contruir um vetor B
+		 *  de mesmo tipo e tamanho, sendoo que cada elemento do vetor B deverá ser
+		 *  o quadrado do respectivo elemento de A, ou seja: B[I] = A[I]*A[I]*/
+		
+		Scanner scan = Scanner(System.in);
+		int [] vetorA = new int[15];
+		int [] vetorB = new int [vetorA.length];
+		
+		
+		System.out.println("Vetor de A = ");
+		for(int i = 0; i < 15; i++) {
+			
+			vetorA[i] = i;
+			//System.out.println(i);
+			System.out.print(vetorA[i] + " ");
+		}
+		System.out.println();
+		
+		System.out.println("Vetor de B = ");
+		
+		for(int i=0; i <15; i++) {
+			vetorB[i] = i;
+			System.out.print(vetorB[i]*2 + " ");
+		}
+		
+		
+		
+	}
+
+	private static Scanner Scanner(InputStream in) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

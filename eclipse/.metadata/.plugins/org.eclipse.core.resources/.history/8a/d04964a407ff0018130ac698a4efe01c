@@ -1,0 +1,15 @@
+package br.com.java.ciant;
+
+public class ControleFluxoDoWhile {
+
+	public static void main(String[] args) {
+		String texto = "Eu passei por aqui";
+		int i = texto.length();
+		while(i !=0) {
+			System.out.println(texto);
+			i++
+		}
+
+	}
+
+}

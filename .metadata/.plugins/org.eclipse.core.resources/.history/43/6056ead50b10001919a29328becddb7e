@@ -1,0 +1,31 @@
+package br.com.br.labs27;
+
+import java.util.Random;
+import java.util.Scanner;
+
+public class Aluno {
+	
+	int matricula;
+	String nomeAluno;
+	String cursoAluno;
+	String [] disciplina;
+	double [] notas;
+	boolean aprovado;
+	
+	Random nRandom = new Random();
+	Scanner scan = new Scanner(System.in);
+	
+	void nMatricula() {
+		System.out.println("N° matricula");
+		System.out.println(matricula = nRandom.nextInt(100));
+		System.out.println("Informe o nome do aluno");
+		nomeAluno = scan.next();
+		
+		System.out.println(nomeAluno);
+	}
+	
+	
+	//metodo aprovado
+	
+
+}

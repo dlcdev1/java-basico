@@ -1,0 +1,11 @@
+package br.com.aula24;
+
+public class Exer01 {
+
+	public static void main(String[] args) {
+		Lampada1 lampada = new Lampada1();
+		
+
+	}
+
+}
