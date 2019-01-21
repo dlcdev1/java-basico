@@ -19,14 +19,19 @@
 <fullyQualifiedTypeName name="java.text.DecimalFormat"/>
 <fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthToggleButtonUI"/>
 <fullyQualifiedTypeName name="jdk.nashorn.internal.parser.Scanner"/>
-<fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthSeparatorUI"/>
 <fullyQualifiedTypeName name="entities.Triangle"/>
-<fullyQualifiedTypeName name="entities.Product"/>
 <fullyQualifiedTypeName name="javafx.scene.shape.TriangleMesh"/>
 <fullyQualifiedTypeName name="entities.Rectangle"/>
 <fullyQualifiedTypeName name="java.lang.Math"/>
-<fullyQualifiedTypeName name="java.util.Locale"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="entities.Employee"/>
+<fullyQualifiedTypeName name="entities.Student"/>
+<fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthSeparatorUI"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="util.Calculator"/>
+<fullyQualifiedTypeName name="entities.CurrencyConverter"/>
+<fullyQualifiedTypeName name="entities.Product"/>
+<fullyQualifiedTypeName name="com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer"/>
+<fullyQualifiedTypeName name="java.util.Locale"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="entities.Count"/>
 </qualifiedTypeNameHistroy>
