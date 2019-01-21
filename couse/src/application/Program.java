@@ -10,21 +10,28 @@ public class Program {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 
-		Product product = new Product();
+//		Product product = new Product();
 
 		System.out.println("Enter product data: ");
 		System.out.print("Name: ");
-		product.name = sc.nextLine();
+		String name = sc.nextLine();
 		System.out.print("Price: ");
-		product.price = sc.nextDouble();
+		double price = sc.nextDouble();
 		System.out.println("Quantity in stock: ");
-		product.quantity = sc.nextInt();
+		int quantity = sc.nextInt();
+		
+		Product product = new Product(name, price, quantity);
+		
+		product.setName("Computer");
+		System.out.println("update name" + product.getName());
+		product.setPrice(1200.00);
+		System.out.println("Update price: " + product.getPrice());
 
 		System.out.println("Product data: " + product);
 
 		System.out.println();
 		System.out.println("Enter the number of products to be added in stoock: ");
-		int quantity = sc.nextInt();
+		quantity = sc.nextInt();
 		product.addProducts(quantity);
 		
 		System.out.println();

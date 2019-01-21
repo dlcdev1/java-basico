@@ -6,5 +6,8 @@
 	<classpathentry kind="src" path="Exer01"/>
 	<classpathentry kind="src" path="Exer02"/>
 	<classpathentry kind="src" path="Exer03"/>
+	<classpathentry kind="src" path="Labs1"/>
+	<classpathentry kind="src" path="Exer04"/>
+	<classpathentry kind="src" path="banco"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
