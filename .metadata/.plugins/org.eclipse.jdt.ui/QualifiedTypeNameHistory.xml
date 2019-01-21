@@ -20,8 +20,13 @@
 <fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthToggleButtonUI"/>
 <fullyQualifiedTypeName name="jdk.nashorn.internal.parser.Scanner"/>
 <fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthSeparatorUI"/>
+<fullyQualifiedTypeName name="entities.Triangle"/>
+<fullyQualifiedTypeName name="entities.Product"/>
+<fullyQualifiedTypeName name="javafx.scene.shape.TriangleMesh"/>
+<fullyQualifiedTypeName name="entities.Rectangle"/>
+<fullyQualifiedTypeName name="java.lang.Math"/>
 <fullyQualifiedTypeName name="java.util.Locale"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="java.util.Scanner"/>
-<fullyQualifiedTypeName name="java.lang.Math"/>
+<fullyQualifiedTypeName name="entities.Employee"/>
 </qualifiedTypeNameHistroy>
