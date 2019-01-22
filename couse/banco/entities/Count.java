@@ -1,55 +1,53 @@
 package entities;
 
 public class Count {
-	private int nCount;
-	private String Name;
-	private char deposit;
-	public double balance;
-	
-	public Count() {
-		
-	}
-	
-	public Count(int nCount, String name, char deposit, double balance) {
-		this.nCount = nCount;
-		Name = name;
-		this.deposit = deposit;
-		this.balance = balance;
+	private int number;
+	private String holder;
+	private double balance;
+
+	public Count(int number, String holder) {
+		super();
+		this.number = number;
+		this.holder = holder;
 	}
 
-	public int getnCount() {
-		return nCount;
+	public Count(int number, String holder, double initialDeposit) {
+		this.number = number;
+		this.holder = holder;
+		deposit(initialDeposit);
 	}
 
-	public void setnCount(int nCount) {
-		this.nCount = nCount;
+	public int getNumber() {
+		return number;
 	}
 
-	public String getName() {
-		return Name;
+
+	public String getHolder() {
+		return holder;
 	}
 
-	public void setName(String name) {
-		Name = name;
-	}
-
-	public char isDeposit() {
-		return deposit;
-	}
-
-	public void setDeposit(char deposit) {
-		this.deposit = deposit;
+	public void setHolder(String holder) {
+		this.holder = holder;
 	}
 
 	public double getBalance() {
 		return balance;
 	}
-
-	public void setBalance(double balance) {
-		this.balance = balance;
+	
+	public void deposit(double amount) {
+		balance += amount;
 	}
 	
-
+	public void withdraw(double amount) {
+		balance -= amount + 5.0;
+	}
 	
-
+	public String toString() {
+		return "Acount "
+				+  number
+				+ ", Holder: "
+				+ holder
+				+ ", Balance: $ "
+				+ String.format("%.2f", balance);
+	}
 }

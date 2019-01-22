@@ -11,35 +11,45 @@ public class Progran {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
-//		Count count = new Count();
+		Count count;
 		
 		System.out.print("Enter account number: ");
-		int nCount = sc.nextInt();
+		int number = sc.nextInt();
+		sc.nextLine();
+		System.out.print("Enter account holder: ");
 		
-		System.out.println("Enter account holder: ");
-		String name = sc.next();
+		String holder = sc.nextLine();
 		
-		System.out.println("Is there na initial depositi (y/n)");
-		char deposit = sc.next().charAt(0);
+		System.out.print("Is there na initial depositi (y/n)? ");
+		char response = sc.next().charAt(0);
 		
-		if(deposit =='y') {
-			System.out.println("Enter initial deposit value:");
-			double balance = sc.nextDouble();
-		} 
+		if(response == 'y') {
+			System.out.print("Enter initial deposite value: ");
+			double initialDeposit = sc.nextDouble();
+			count = new Count(number, holder, initialDeposit);
+		}
+		else {
+			count = new Count(number, holder);
+		}
+		System.out.println();
+		System.out.println("Account data: ");
+		System.out.print(count);
 		
-		Count count = new Count(nCount, name, deposit, balance);	
+		System.out.println();
+		System.out.print("Enter a deposit value:  ");
+		double depositValue = sc.nextDouble();
+		count.deposit(depositValue);
+		System.out.println("Update account data:");
+		System.out.println(count);
 		
-		System.out.println("data:");
+		System.out.println();
+		System.out.print("Enter a withdraw value:  ");
+		double witthdrawValue = sc.nextDouble();
+		count.withdraw(witthdrawValue);;
+		System.out.println("Update account data:");
+		System.out.println(count);
 		
-		System.out.print("Acount 7801," + nCount + "Holder " + name + " Balance: $" + balance);
-		
-		
-		
-		
-		 
-		 
-		 
-		 
+	
 		sc.close();
 
 	}
