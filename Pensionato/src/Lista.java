@@ -41,6 +41,8 @@ public class Lista {
 		System.out.println("---------------");
 		String name = list.stream().filter(x -> x.charAt(0) == 'j').findFirst().orElse(null);
 		System.out.println(name);
+		
+		System.out.println(name);
 	}
 
 }
