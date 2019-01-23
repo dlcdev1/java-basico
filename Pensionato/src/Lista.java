@@ -16,7 +16,7 @@ public class Lista {
 		
 		System.out.println(list.size());
 		
-		
+	
 		for(String x : list) {
 			System.out.println(x);
 		}
