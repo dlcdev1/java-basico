@@ -30,9 +30,7 @@ public class Matriz_exer {
 					if (j < mat[i].length - 1) {
 						System.out.println("Right: " + mat[i][j + 1]);
 					}
-					if (i < mat.length - 1) {
-						System.out.println("Down: " + mat[i + 1][j]);
-					}
+
 				}
 
 			}
