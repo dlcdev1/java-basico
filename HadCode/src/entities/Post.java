@@ -23,8 +23,6 @@ public class Post {
 	public Post(Date moment, String title, String content, Integer likes) {
 	
 		this.moment = moment;
-		this.title = title;
-		this.content = content;
 		this.likes = likes;
 	}
 
