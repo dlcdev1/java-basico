@@ -9,5 +9,6 @@
 <item elementID="=ciandt_basico-java-oo" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1545305648234_2" label="Window Working Set" name="Aggregate for window 1545305648234"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1548938305235_4" label="Window Working Set" name="Aggregate for window 1548938305235"/>
 <mruList name="new_java_udym"/>
 </workingSetManager>
